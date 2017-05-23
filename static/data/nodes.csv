@@ -1,0 +1,5 @@
+source,target,type,label,id
+e,e,licensing,0,0
+e,a,licensing,0,1
+a,e,licensing,0,2
+a,a,licensing,0,3
