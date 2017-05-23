@@ -34,7 +34,7 @@ def background_process():
 					f.write(str(vals[0]) + ',' + str(data[0][ind+1]) + ',' + "licensing" + ',' + str(val) + ',' + str(count) + '\n')
 					count += 1
 
-
+	return jsonify(result='You are wise')
 		
 	except Exception as e:
 		return str(e)
